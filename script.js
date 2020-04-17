@@ -1,5 +1,5 @@
 function Binary (Tal) {
-    binary = '';
+    var binary = '';
     while( Tal > 0) {
         binary  = (tal % 2) + binary;
         Tal = Math.floor(Tal/2);
